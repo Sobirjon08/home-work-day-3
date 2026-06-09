@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nashakomand{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ekaterin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar form input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: lighter;
+    border-bottom: solid 1px gray ;
+}
+.navbar1{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+}
+.katalog{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar1 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FF7715;
+    border: none;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.116);
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.navbar1 button:hover{
+    background: black;
+    transform: translateY(-2px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.navbarr{
+    display: none;
+}
+.navbar11{
+    display: none;
+}
+.navbarmob{
+    display: none;
+}
+.bacground{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222222;
+}
+.kakm{
+    width: 1200px;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.kakm h1{
+    font-size: 50px;
+}
+.isxodni{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px gray;
+}
+.count{
+    display: grid;
+    grid-template-columns: repeat(11,90px);
+    grid-template-rows: repeat(4,100px);
+    gap:20px;
+}
+.rezul{
+    display: flex;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.item1{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    border: solid 1px #D4D4D4;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.item2 img{
+    width: 40px;
+}
+.item3{
+    grid-column: 5/8;
+    grid-row: 2/3;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: solid 1px #D4D4D4;
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    grid-column: 8/9;
+    grid-row: 2/3;
+}
+.item4 img{
+    width: 40px;
+}
+.item5{
+    grid-column: 9/12;
+    grid-row: 2/3;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    border: solid 1px #D4D4D4;
+}
+.item6{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    border: solid 1px #D4D4D4;
+}
+.item7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.item7 img{
+    width: 40px;
+}
+.item8{
+    grid-column: 5/8;
+    grid-row: 3/4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    border: solid 1px #D4D4D4;
+}
+.item9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 8/9;
+    grid-row: 3/4;
+    row-gap: 10px;
+}
+.item9 img{
+    width: 40px;
+}
+.item10{
+    grid-column: 9/12;
+    grid-row: 3/4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    border: solid 1px #D4D4D4;
+}
+.count button{
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FF7715;
+    grid-column: 1/12;
+    grid-row: 4/5;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:835px){
+    .navbar{
+        display: none;
+    }
+    .navbar1{
+        display: none;
+    }
+    .navbar11{
+        display: block;
+    }
+    .navbar11{
+        width: 100%;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 15px;
+    }
+    .katalog{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .navbar11 button{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #FF7715;
+        border: none;
+        color: white;
+        font-size: 16px;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.116);
+        transition: box-shadow 0.3s ease;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .navbar11 button:hover{
+        background: black;
+        transform: translateY(-2px);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .navbarmob{
+        display: none;
+    }
+    .bacground{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #222222;
+    }
+    .kakm{
+        width: 850px;
+        height: 600px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .kakm h1{
+        font-size: 50px;
+    }
+    .isxodni{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-bottom: 2px gray;
+    }
+    .count{
+        display: grid;
+        grid-template-columns: repeat(11,50px);
+        grid-template-rows: repeat(4,100px);
+        gap:20px;
+    }
+    .rezul{
+        display: flex;
+        align-items: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .item1{
+        grid-column: 1/4;
+        grid-row: 2/3;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+        border: solid 1px #D4D4D4;
+    }
+    .item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    .item2 img{
+        width: 40px;
+    }
+    .item3{
+        grid-column: 5/8;
+        grid-row: 2/3;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        border: solid 1px #D4D4D4;
+    }
+    .item4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        grid-column: 8/9;
+        grid-row: 2/3;
+    }
+    .item4 img{
+        width: 40px;
+    }
+    .item5{
+        grid-column: 9/12;
+        grid-row: 2/3;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+        border: solid 1px #D4D4D4;
+    }
+    .item6{
+        grid-column: 1/4;
+        grid-row: 3/4;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+        border: solid 1px #D4D4D4;
+    }
+    .item7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+    .item7 img{
+        width: 40px;
+    }
+    .item8{
+        grid-column: 5/8;
+        grid-row: 3/4;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+        border: solid 1px #D4D4D4;
+    }
+    .item9{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-column: 8/9;
+        grid-row: 3/4;
+        row-gap: 10px;
+    }
+    .item9 img{
+        width: 40px;
+    }
+    .item10{
+        grid-column: 9/12;
+        grid-row: 3/4;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+        border: solid 1px #D4D4D4;
+    }
+    .count button{
+        height: 60px;
+        border-radius: 10px;
+        background-color: #FF7715;
+        grid-column: 1/12;
+        grid-row: 4/5;
+    }
+}
